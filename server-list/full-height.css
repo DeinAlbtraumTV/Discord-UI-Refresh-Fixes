@@ -1,0 +1,14 @@
+/*
+------------------------------------------ 
+
+    Extends the server list to the full height
+    of the window
+   
+    Recommended to be used with profile-panel/shrink-panel-width
+    as it makes the space needed for this
+
+------------------------------------------
+*/
+.visual-refresh .wrapper_ef3116 {
+    margin-bottom: calc(0 + var(--space-xs)) !important;
+}

@@ -1,0 +1,14 @@
+/*
+------------------------------------------ 
+
+    Slims the profile panel down so it fits into the channel area
+   
+    Recommended to be used with server-list/full-height
+    as this is what makes space for it
+
+------------------------------------------
+*/
+.visual-refresh .panels_c48ade {
+    left: calc(60px + var(--space-xs)) !important;
+    width: calc(calc(100% - var(--space-xs)*2) - 60px) !important;
+}
