@@ -6,6 +6,8 @@ Snippets in folders with the name "FAST" are identical to normal ones but have t
 
 Only Snippets that have transitions will have a dedicated FAST version!
 
+FAST snippets only disable added transitions, they DO NOT modify existing transitions inside discord!
+
 # How to use:
 
 How to apply these is up to you, i'm NOT going to help you break TOS!

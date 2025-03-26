@@ -1,0 +1,45 @@
+/*
+------------------------------------------ 
+
+   Moves message input down so it
+   aligns with the profile block
+   
+   Moves the typing indicator into the message box
+
+   Resizes the message box if the typing indicator
+   is present
+
+------------------------------------------
+*/
+.visual-refresh .form_f75fb0 .attachButton__0923f {
+    transition: height .2s ease !important;
+}
+
+.visual-refresh .form_f75fb0:has(div.typing_b88801) .attachButton__0923f {
+    height: calc(var(--custom-channel-textarea-text-area-height) + 16px) !important;
+}
+
+.visual-refresh .form_f75fb0 .buttons__74017 {
+    transition: height .2s ease !important;
+}
+
+.visual-refresh .form_f75fb0:has(div.typing_b88801) .buttons__74017 {
+    height: calc(var(--custom-channel-textarea-text-area-height) + 16px) !important;
+}
+
+.visual-refresh .form_f75fb0 .channelTextArea_f75fb0 {
+    margin-bottom: 10px !important;
+}
+
+.visual-refresh .form_f75fb0 .textArea__74017 {
+    transition: height .2s ease !important;
+}
+
+.visual-refresh .form_f75fb0:has(div.typing_b88801) .textArea__74017 {
+    height: calc(var(--custom-channel-textarea-text-area-height) + 16px) !important;
+}
+
+.visual-refresh .form_f75fb0 .typing_b88801 {
+    margin-bottom: 10px !important;
+    margin-left: 55px !important;
+}
