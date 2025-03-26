@@ -1,0 +1,13 @@
+/*
+------------------------------------------ 
+
+    Changes the padding on the left and
+    right of the server icons
+
+    This is equal to normal density
+
+------------------------------------------
+*/
+.visual-refresh {
+    --custom-guild-list-padding: min(var(--space-16)) !important;
+}
