@@ -9,13 +9,13 @@
 ------------------------------------------
 */
 .visual-refresh .form_f75fb0 {
-    --space-bottom: 10px;
+    --space-bottom: var(--space-xs);
 }
   
 .visual-refresh .form_f75fb0:has(div.typing_b88801) {
     --space-bottom: 24px;
 }
-  
+
 .channelTextArea_f75fb0 {
     margin-top: calc(24px - var(--space-bottom)) !important;
     margin-bottom: var(--space-bottom) !important;

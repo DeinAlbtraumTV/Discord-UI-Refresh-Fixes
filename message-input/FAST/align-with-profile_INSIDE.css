@@ -24,10 +24,10 @@
 }
 
 .visual-refresh .form_f75fb0 .channelTextArea_f75fb0 {
-    margin-bottom: 10px !important;
+    margin-bottom: var(--space-xs) !important;
 }
 
 .visual-refresh .form_f75fb0 .typing_b88801 {
-    margin-bottom: 10px !important;
+    margin-bottom: var(--space-xs) !important;
     margin-left: 55px !important;
 }
