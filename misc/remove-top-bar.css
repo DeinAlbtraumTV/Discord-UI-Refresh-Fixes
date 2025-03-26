@@ -1,0 +1,55 @@
+/*
+------------------------------------------ 
+
+    Removes the top bar as it only shows
+    redundant info
+
+    Buttons in the top right corner get pulled
+    down, elements in the way also get pulled
+    down a bit (search, voice-channel open chat, ...)
+
+------------------------------------------
+*/
+.bar_c38106:not(.systemBar_c38106) {
+    position: absolute !important;
+    right: 0 !important;
+    z-index: 101 !important;
+}
+
+.bar_c38106:not(.systemBar_c38106) > .title_c38106 {
+    display: none !important;
+}
+
+.bar_c38106:not(.systemBar_c38106) > .leading_c38106 {
+    display: none !important;
+}
+
+.bar_c38106:not(.systemBar_c38106) > .trailing_c38106 {
+    margin-top: var(--space-xs);
+}
+
+.base_c48ade {
+    grid-template-rows: [top] 0 [titleBarEnd] min-content [noticeEnd] 1fr [end] !important;
+}
+
+.search__49676 {
+    margin-top: calc(3* var(--custom-app-top-bar-height)) !important;
+}
+
+.container_c8ffbb {
+    padding-top: var(--custom-app-top-bar-height) !important;
+}
+
+.guilds_c48ade {
+    margin-top: var(--space-xs) !important;
+}
+
+.videoControls_bfe55a {
+    top: var(--custom-app-top-bar-height) !important;
+}
+
+.chatLayerWrapper__01ae2 {
+    height: calc(100% - var(--custom-app-top-bar-height) - 2* var(--space-xs)) !important;
+    top: unset !important;
+    bottom: 0 !important;
+}
