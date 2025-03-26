@@ -25,7 +25,12 @@
 }
 
 .bar_c38106:not(.systemBar_c38106) > .trailing_c38106 {
-    margin-top: var(--space-xs);
+    margin-top: var(--space-8) !important;
+}
+
+.visual-refresh.density-cozy .bar_c38106:not(.systemBar_c38106) > .trailing_c38106 {
+    margin-top: var(--space-6) !important;
+    gap: var(--space-8) !important;
 }
 
 .base_c48ade {
@@ -33,7 +38,11 @@
 }
 
 .search__49676 {
-    margin-top: calc(3* var(--custom-app-top-bar-height)) !important;
+    margin-top: calc(2.5* var(--custom-app-top-bar-height)) !important;
+}
+
+.searchResultsWrap_a9e706 {
+    padding-top: calc(var(--custom-app-top-bar-height)) !important;
 }
 
 .container_c8ffbb {
@@ -49,7 +58,11 @@
 }
 
 .chatLayerWrapper__01ae2 {
-    height: calc(100% - var(--custom-app-top-bar-height) - 2* var(--space-xs)) !important;
+    height: calc(100% - var(--custom-app-top-bar-height) - 2* var(--space-8)) !important;
     top: unset !important;
     bottom: 0 !important;
+}
+
+.visual-refresh.density-cozy .chatLayerWrapper__01ae2 {
+    height: calc(100% - var(--custom-app-top-bar-height) - 2* var(--space-6)) !important;
 }
