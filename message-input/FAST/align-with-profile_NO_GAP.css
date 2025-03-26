@@ -1,17 +1,17 @@
 /*
 ------------------------------------------ 
 
-   Moves message input down so it
-   aligns with the profile block
-   
-   Shifts it up if the typing indicator is present
+    Moves message input down so it
+    aligns with the profile block
 
-   This version is different as it doesn't
-   create a gap above the message input for the
-   typing indicator
+    Shifts it up if the typing indicator is present
 
-   Instead, the entire message history will get
-   pushed up by it
+    This version is different as it doesn't
+    create a gap above the message input for the
+    typing indicator
+
+    Instead, the entire message history will get
+    pushed up by it
 
 ------------------------------------------
 */
