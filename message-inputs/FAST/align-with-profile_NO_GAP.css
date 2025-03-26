@@ -1,0 +1,28 @@
+/*
+------------------------------------------ 
+
+   Move message input down so it
+   Aligns with the profile block
+   
+   Shifts it up if the typing indicator is present
+
+   This version is different as it doesn't
+   create a gap above the message input for the
+   typing indicator
+
+   Instead, the entire message history will get
+   pushed up by it
+
+------------------------------------------
+*/
+.visual-refresh .form_f75fb0 {
+    --space-bottom: 10px;
+}
+  
+.visual-refresh .form_f75fb0:has(div.typing_b88801) {
+    --space-bottom: 24px;
+}
+
+.channelTextArea_f75fb0 {
+    margin-bottom: var(--space-bottom) !important;
+}

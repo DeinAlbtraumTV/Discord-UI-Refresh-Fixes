@@ -1,0 +1,22 @@
+/*
+------------------------------------------ 
+
+   Move message input down so it
+   Aligns with the profile block
+   
+   Shifts it up if the typing indicator is present
+
+------------------------------------------
+*/
+.visual-refresh .form_f75fb0 {
+    --space-bottom: 10px;
+}
+  
+.visual-refresh .form_f75fb0:has(div.typing_b88801) {
+    --space-bottom: 24px;
+}
+  
+.channelTextArea_f75fb0 {
+    margin-top: calc(24px - var(--space-bottom)) !important;
+    margin-bottom: var(--space-bottom) !important;
+}
