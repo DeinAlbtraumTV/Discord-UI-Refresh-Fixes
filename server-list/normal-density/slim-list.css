@@ -5,8 +5,10 @@
     right of the server icons, making it
     look more like pre-update server lists
 
+    This sets it to be like compact density
+
 ------------------------------------------
 */
 .visual-refresh {
-    --custom-guild-list-padding: min(var(--space-10)) !important;
+    --custom-guild-list-padding: min(var(--space-12)) !important;
 }

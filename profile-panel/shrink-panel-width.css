@@ -9,6 +9,6 @@
 ------------------------------------------
 */
 .visual-refresh .panels_c48ade {
-    left: calc(60px + var(--space-xs)) !important;
-    width: calc(calc(100% - var(--space-xs)*2) - 60px) !important;
+    left: calc(var(--custom-guild-list-width) + var(--space-xs)) !important;
+    width: calc(calc(100% - var(--space-xs)*2) - var(--custom-guild-list-width)) !important;
 }
