@@ -14,7 +14,6 @@
 
 ------------------------------------------
 */
-
 .visual-refresh .form_f75fb0 {
     --custom-channel-textarea-height-change: 0px;
 }
@@ -25,17 +24,20 @@
 
 .visual-refresh .form_f75fb0 .attachButton__0923f {
     transition: height .2s ease !important;
-    height: calc(var(--custom-channel-textarea-text-area-height) + var(--custom-channel-textarea-height-change)) !important;
+    height: calc(var(--custom-channel-textarea-text-area-height) + var(--custom-channel-textarea-height-change));
+    min-height: calc(var(--custom-channel-textarea-text-area-height) + var(--custom-channel-textarea-height-change)) !important;
 }
 
 .visual-refresh .form_f75fb0 .buttons__74017 {
     transition: height .2s ease !important;
-    height: calc(var(--custom-channel-textarea-text-area-height) + var(--custom-channel-textarea-height-change)) !important;
+    height: calc(var(--custom-channel-textarea-text-area-height) + var(--custom-channel-textarea-height-change));
+    min-height: calc(var(--custom-channel-textarea-text-area-height) + var(--custom-channel-textarea-height-change)) !important;
 }
 
 .visual-refresh .form_f75fb0 .textArea__74017 {
     transition: height .2s ease !important;
-    height: calc(var(--custom-channel-textarea-text-area-height) + var(--custom-channel-textarea-height-change)) !important;
+    height: calc(var(--custom-channel-textarea-text-area-height) + var(--custom-channel-textarea-height-change));
+    min-height: calc(var(--custom-channel-textarea-text-area-height) + var(--custom-channel-textarea-height-change)) !important;
 }
 
 .visual-refresh .form_f75fb0 .channelTextArea_f75fb0 {
