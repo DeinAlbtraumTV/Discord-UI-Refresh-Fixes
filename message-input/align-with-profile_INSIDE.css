@@ -9,35 +9,19 @@
     Resizes the message box if the typing indicator
     is present
 
-    THIS VERSION ARTIFACTS WHEN TYPING MULTILINE MESSAGES!
-    USE THE FAST VERSION INSTEAD!
-
 ------------------------------------------
 */
 .visual-refresh .form_f75fb0 {
-    --custom-channel-textarea-height-change: 0px;
+    --custom-channel-textarea-typing-space: 0px;
 }
 
 .visual-refresh .form_f75fb0:has(div.typing_b88801) {
-    --custom-channel-textarea-height-change: 16px;
-}
-
-.visual-refresh .form_f75fb0 .attachButton__0923f {
-    transition: height .2s ease !important;
-    height: calc(var(--custom-channel-textarea-text-area-height) + var(--custom-channel-textarea-height-change));
-    min-height: calc(var(--custom-channel-textarea-text-area-height) + var(--custom-channel-textarea-height-change)) !important;
-}
-
-.visual-refresh .form_f75fb0 .buttons__74017 {
-    transition: height .2s ease !important;
-    height: calc(var(--custom-channel-textarea-text-area-height) + var(--custom-channel-textarea-height-change));
-    min-height: calc(var(--custom-channel-textarea-text-area-height) + var(--custom-channel-textarea-height-change)) !important;
+    --custom-channel-textarea-typing-space: 16px;
 }
 
 .visual-refresh .form_f75fb0 .textArea__74017 {
-    transition: height .2s ease !important;
-    height: calc(var(--custom-channel-textarea-text-area-height) + var(--custom-channel-textarea-height-change));
-    min-height: calc(var(--custom-channel-textarea-text-area-height) + var(--custom-channel-textarea-height-change)) !important;
+    transition: margin-bottom .2s ease !important;
+    margin-bottom: var(--custom-channel-textarea-typing-space);
 }
 
 .visual-refresh .form_f75fb0 .channelTextArea_f75fb0 {

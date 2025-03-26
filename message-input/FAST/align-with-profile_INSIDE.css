@@ -12,26 +12,15 @@
 ------------------------------------------
 */
 .visual-refresh .form_f75fb0 {
-    --custom-channel-textarea-height-change: 0px;
+    --custom-channel-textarea-typing-space: 0px;
 }
 
 .visual-refresh .form_f75fb0:has(div.typing_b88801) {
-    --custom-channel-textarea-height-change: 16px;
-}
-
-.visual-refresh .form_f75fb0 .attachButton__0923f {
-    height: calc(var(--custom-channel-textarea-text-area-height) + var(--custom-channel-textarea-height-change));
-    min-height: calc(var(--custom-channel-textarea-text-area-height) + var(--custom-channel-textarea-height-change)) !important;
-}
-
-.visual-refresh .form_f75fb0 .buttons__74017 {
-    height: calc(var(--custom-channel-textarea-text-area-height) + var(--custom-channel-textarea-height-change));
-    min-height: calc(var(--custom-channel-textarea-text-area-height) + var(--custom-channel-textarea-height-change)) !important;
+    --custom-channel-textarea-typing-space: 16px;
 }
 
 .visual-refresh .form_f75fb0 .textArea__74017 {
-    height: calc(var(--custom-channel-textarea-text-area-height) + var(--custom-channel-textarea-height-change));
-    min-height: calc(var(--custom-channel-textarea-text-area-height) + var(--custom-channel-textarea-height-change)) !important;
+    margin-bottom: var(--custom-channel-textarea-typing-space);
 }
 
 .visual-refresh .form_f75fb0 .channelTextArea_f75fb0 {
