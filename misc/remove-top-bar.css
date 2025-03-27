@@ -8,10 +8,14 @@
     down, elements in the way also get pulled
     down a bit (search, voice-channel open chat, ...)
 
+    THIS CURRENTLY BUGS OUT WHEN YOU HAVE
+    TEXT STORED IN AN INPUT AND THEN OPEN THE
+    CHANNEL AGAIN
 ------------------------------------------
 */
 .bar_c38106:not(.systemBar_c38106) {
     position: absolute !important;
+    padding: 0 !important;
     right: 0 !important;
     z-index: 101 !important;
 }
@@ -25,7 +29,7 @@
 }
 
 .bar_c38106:not(.systemBar_c38106) > .trailing_c38106 {
-    margin-top: var(--space-8) !important;
+    margin-top: 7px !important;
 }
 
 .visual-refresh.density-cozy .bar_c38106:not(.systemBar_c38106) > .trailing_c38106 {
@@ -37,8 +41,22 @@
     grid-template-rows: [top] 0 [titleBarEnd] min-content [noticeEnd] 1fr [end] !important;
 }
 
+.toolbar__9293f {
+    transform: translateX(calc(-8*32px)) !important;
+}
+
 .search__49676 {
+    position: absolute !important;
     margin-top: calc(2.5* var(--custom-app-top-bar-height)) !important;
+}
+
+.visual-refresh.density-compact .search__49676,
+.visual-refresh.density-default .search__49676 {
+    margin-left: calc(5*32px) !important;
+}
+
+.visual-refresh.density-cozy .search__49676 {
+    margin-left: calc(5*32px + 6px) !important;
 }
 
 .searchResultsWrap_a9e706 {
