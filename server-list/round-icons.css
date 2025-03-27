@@ -1,0 +1,14 @@
+/*
+------------------------------------------ 
+
+    Makes icons round
+
+    The selected server icon will have the
+    more square-ish look
+
+------------------------------------------
+*/
+.wrapper__6e9f8:not(.selected__6e9f8) {
+    border-radius: 50% !important;
+    overflow: hidden !important;
+}
