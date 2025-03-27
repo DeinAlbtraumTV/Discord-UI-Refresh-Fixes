@@ -1,0 +1,12 @@
+/*
+------------------------------------------ 
+
+    Changes the height of the top bar
+
+    This is equal to normal density
+
+------------------------------------------
+*/
+.visual-refresh {
+    --custom-app-top-bar-height: calc(24px + var(--space-12)) !important;
+}

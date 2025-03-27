@@ -1,0 +1,12 @@
+/*
+------------------------------------------ 
+
+    Changes the height of the top bar
+
+    This is equal to spacious density
+
+------------------------------------------
+*/
+.visual-refresh {
+    --custom-app-top-bar-height: calc(24px + var(--space-16)) !important;
+}
