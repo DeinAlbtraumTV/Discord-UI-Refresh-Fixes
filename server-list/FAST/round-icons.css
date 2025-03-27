@@ -8,10 +8,6 @@
 
 ------------------------------------------
 */
-.wrapper__6e9f8 {
-    transition: border-radius .2s ease;
-}
-
 .wrapper__6e9f8:not(.selected__6e9f8) {
     border-radius: 50% !important;
     overflow: hidden !important;
