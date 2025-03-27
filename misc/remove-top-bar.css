@@ -9,7 +9,8 @@
     down a bit (search, voice-channel open chat, ...)
 
     THIS CURRENTLY BUGS OUT WHEN YOU HAVE
-    TEXT STORED IN AN INPUT AND THEN OPEN THE
+    MORE THAN 2 LINES OF TEXT STORED IN 
+    A MESSAGE INPUT AND THEN OPEN THE
     CHANNEL AGAIN
 ------------------------------------------
 */
@@ -38,11 +39,15 @@
 }
 
 .base_c48ade {
-    grid-template-rows: [top] 0 [titleBarEnd] min-content [noticeEnd] 1fr [end] !important;
+    grid-template-rows: [top] 1px [titleBarEnd] min-content [noticeEnd] 1fr [end] !important;
 }
 
 .toolbar__9293f {
     transform: translateX(calc(-8*32px)) !important;
+}
+
+.children__9293f {
+    margin-right: calc(8*32px) !important;
 }
 
 .search__49676 {
@@ -69,18 +74,4 @@
 
 .guilds_c48ade {
     margin-top: var(--space-xs) !important;
-}
-
-.videoControls_bfe55a {
-    top: var(--custom-app-top-bar-height) !important;
-}
-
-.chatLayerWrapper__01ae2 {
-    height: calc(100% - var(--custom-app-top-bar-height) - 2* var(--space-8)) !important;
-    top: unset !important;
-    bottom: 0 !important;
-}
-
-.visual-refresh.density-cozy .chatLayerWrapper__01ae2 {
-    height: calc(100% - var(--custom-app-top-bar-height) - 2* var(--space-6)) !important;
 }
