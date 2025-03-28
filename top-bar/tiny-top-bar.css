@@ -1,0 +1,12 @@
+/*
+------------------------------------------ 
+
+    Changes the height of the top bar
+
+    This is smaller than compact density
+
+------------------------------------------
+*/
+.visual-refresh {
+    --custom-app-top-bar-height: calc(24px + var(--space-4)) !important;
+}
